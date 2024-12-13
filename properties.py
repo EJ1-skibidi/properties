@@ -1,6 +1,6 @@
 import clr
 from System import String, Double, Array, Reflection
-dtlpath = "\\ElliotF\\Desktop\\Article\\DWSIM Thermo\\DTL_v8.3.1\\"
+dtlpath = "\\ElliotF\\Desktop\\Article\\DWSIM Thermo\\DTL_v8.3.1\\" # UPDATE WITH YOUR PATH
 clr.AddReference(dtlpath + "DWSIM.Thermodynamics.StandaloneLibrary.dll")
 from DWSIM.Thermodynamics import PropertyPackages, CalculatorInterface
 import CapeOpen
